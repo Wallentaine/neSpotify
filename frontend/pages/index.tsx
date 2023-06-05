@@ -1,15 +1,17 @@
 import React from 'react';
 import Navbar from '../components/navbar/Navbar';
 import { Typography } from '@mui/material';
+import MainLayout from '../layouts/MainLayout';
 
 const Index = () => {
     return (
         <>
-            <Navbar/>
-            <div className="center">
-                <Typography variant="h2" gutterBottom color="secondary">Добро пожаловать!</Typography>
-                <Typography variant="h4" gutterBottom color="secondary">Здесь собраны лучшие треки</Typography>
-            </div>
+            <MainLayout>
+                <div className="center">
+                    <Typography variant="h2" gutterBottom color="secondary">Добро пожаловать!</Typography>
+                    <Typography variant="h4" gutterBottom color="secondary">Здесь собраны лучшие треки</Typography>
+                </div>
+            </MainLayout>
 
             <style jsx>
                 {`
