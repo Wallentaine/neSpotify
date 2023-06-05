@@ -1,10 +1,13 @@
 import React from 'react';
+import MainLayout from '../../layouts/MainLayout';
 
 const Index = () => {
     return (
-        <div>
-            Список треков
-        </div>
+        <MainLayout>
+            <div>
+                Список треков
+            </div>
+        </MainLayout>
     );
 };
 
