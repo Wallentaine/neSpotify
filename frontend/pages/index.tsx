@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../components/navbar/Navbar';
 import { Typography } from '@mui/material';
 import MainLayout from '../layouts/MainLayout';
 
