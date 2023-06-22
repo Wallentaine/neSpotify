@@ -9,7 +9,7 @@ interface StepWrapperProps {
 
 const steps = ['Информация о треке', 'Загрузите обложку', 'Загрузите трек']
 
-const CreateStepWrapper: React.FC<StepWrapperProps> = ({activeStep, children}) => {
+const CreateTrackStepWrapper: React.FC<StepWrapperProps> = ({activeStep, children}) => {
     return (
         <Container>
             <Stepper
@@ -37,4 +37,4 @@ const CreateStepWrapper: React.FC<StepWrapperProps> = ({activeStep, children}) =
     );
 };
 
-export default CreateStepWrapper;
+export default CreateTrackStepWrapper;
