@@ -1,6 +1,7 @@
 import React, { ReactNode } from 'react';
 import Navbar from '../components/navbar/Navbar';
 import { Container } from '@mui/system';
+import Player from '../components/player/Player';
 
 interface MainLayoutChildren {
     children?: ReactNode;
@@ -13,6 +14,7 @@ const MainLayout: React.FC<MainLayoutChildren> = ({ children }) => {
             <Container>
                 {children}
             </Container>
+            <Player/>
         </>
     );
 };
